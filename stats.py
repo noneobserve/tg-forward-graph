@@ -11,6 +11,7 @@ for f in glob.glob("raw/*.jsonl"):
         d = json.loads(riga)
         msg_tot += 1
         if d.get("fwd_da"):
+            d["fwd_da"] = d["fwd_da"].lower()
             fwd_tot += 1
             archi[(d["fwd_da"], src)] += 1
             per_canale[src] += 1
