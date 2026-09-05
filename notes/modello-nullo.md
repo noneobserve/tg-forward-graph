@@ -105,3 +105,30 @@ non è spiegato dai soli volumi di pubblicazione. **Non** indica
 coordinamento, accordo o inautenticità: indica una relazione di
 rilancio preferenziale, che può avere cause banali (affiliazione
 dichiarata, prossimità tematica, sovrapposizione di redazione).
+
+## Correzione per test multipli
+
+Benjamini-Hochberg applicata a 39 test, soglia 0.01.
+
+Significativi grezzi: 27. Dopo correzione: **26**.
+Unico escluso: `casapoundnapoliufficiale → uroborocava`
+(p=0.0032, soglia adattiva 0.0067).
+
+### Caso notevole: peso alto ma non significativo
+
+`bloccostudentesconazionale → bloccostudentesconapoli`, peso 9,
+p=0.0332 — non significativo nonostante sia uno degli archi più
+pesanti tra i non significativi.
+
+Spiegazione: entrambi i canali hanno volumi molto alti (il
+nazionale è rilanciato 56 volte in totale, napoli ne rilancia 35).
+Con quei marginali, 9 forward tra loro rientrano nell'atteso.
+
+**Convergenza tra metodi indipendenti.** La community detection
+aveva già collocato `bloccostudentesconapoli` nella community 2
+(ambiente napoletano) anziché nella 1 con la struttura nazionale.
+Il modello nullo, con assunzioni completamente diverse, indica la
+stessa cosa: il legame con il nazionale non è preferenziale.
+
+Due metodi indipendenti che convergono rafforzano l'ipotesi molto
+più di un singolo risultato forte.
