@@ -24,7 +24,7 @@ i canali più frequentemente rilanciati non ancora osservati.
 
 ### Seed iniziali (8)
 casapoundufficiale, ecodelnord, bloccostudentesconazionale,
-barabittmilano, arcadiapirata, progettorazzia, terracava2, matbrandi
+barabittmilano, arcadiapirata, progettorazzia, terracava2, IND_01
 
 Criterio: canali di organizzazioni e figure pubbliche riconoscibili
 dell'area, identificati da conoscenza pregressa del dominio.

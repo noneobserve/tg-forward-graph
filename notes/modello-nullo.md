@@ -39,12 +39,12 @@ Più forti (p = 0.0002, cioè mai superati in 5000 permutazioni):
 
 | peso | arco |
 |------|------|
-| 49 | proitalia_org → matbrandi |
+| 49 | proitalia_org → IND_01 |
 | 21 | bloccostudentesconazionale → barabittmilano |
 | 15 | casapoundnapoliufficiale → bloccostudentesconapoli |
 | 10 | arcadiapirata → barabittmilano |
 | 10 | bloccostudentesconazionale → bloccostudentescoavellino |
-| 10 | fratotolo → casapoundnapoliufficiale |
+| 10 | IND_02 → casapoundnapoliufficiale |
 
 ## Il risultato più istruttivo
 

@@ -34,7 +34,7 @@ gerarchica.
 
 Il rapporto rilanciato/rilancia calcolato su tutti i canali
 osservati produceva un ranking dominato da `matt1news` (25.0),
-`fratotolo` (15.0) e `futuronazionaleofficial` (9.0), apparenti
+`IND_02` (15.0) e `futuronazionaleofficial` (9.0), apparenti
 "produttori puri" con grado entrante nullo o quasi.
 
 Verifica delle date di prima osservazione: quei tre canali sono
@@ -93,7 +93,7 @@ La partizione è una proprietà del grafo, non dell'algoritmo.
 | 1 | 18 | 9 | bloccostudentesco nazionale/avellino/fvg, barabittmilano |
 | 2 | 17 | 8 | casapoundnapoliufficiale, bloccostudentesconapoli, uroborocava |
 | 3 | 13 | 4 | arktosmedia, dvxpubco, lanceslegion, imperiumpressofficial |
-| 4 | 6 | 3 | proitalia_org, matbrandi, canalefahrenheit912 |
+| 4 | 6 | 3 | proitalia_org, IND_01, canalefahrenheit912 |
 
 ## Osservazioni da verificare (NON conclusioni)
 
@@ -110,7 +110,7 @@ altre quattro a base territoriale italiana. È l'unico
 raggruppamento non anticipabile dai dati grezzi.
 
 **3. Asimmetria produttore/distributore.** L'arco
-`matbrandi ↔ proitalia_org` ha pesi 2/49: fortemente asimmetrico.
+`IND_01 ↔ proitalia_org` ha pesi 2/49: fortemente asimmetrico.
 Contrapposto a scambi equilibrati come
 `baronungernkhan ↔ ilblast_it` (1/1).
 
