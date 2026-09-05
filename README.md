@@ -13,6 +13,8 @@ The pipeline maps **structure, not identity**. It measures which
 channels relay which, how often, and over what period. It does not
 attribute content to individuals, and does not attempt to infer
 intent or coordination from relay patterns.
+Applied to a cluster of Italian-language political channels; see
+the sampling note for the full seed list and selection criteria.
 
 ## Data source
 
