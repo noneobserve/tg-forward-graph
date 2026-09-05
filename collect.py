@@ -14,13 +14,14 @@ def parse(html):
         post = m.get("data-post", "")
         t = m.select_one("time[datetime]")
         testo = m.select_one("div.tgme_widget_message_text")
-        fwd = m.select_one("a.tgme_widget_message_forwarded_from_name")
+        fwd = m.select_one(".tgme_widget_message_forwarded_from_name")
         out.append({
             "post": post,
             "msg_id": int(post.split("/")[-1]) if "/" in post else None,
             "data": t["datetime"] if t else None,
             "testo": testo.get_text(" ", strip=True) if testo else None,
-            "fwd_da": fwd["href"].split("/")[-1].split("?")[0] if fwd and fwd.get("href") else None,
+            "fwd_da": fwd["href"].split("t.me/")[-1].strip("/").split("/")[0].split("?")[0] if fwd and fwd.get("href") else None,
+	    "fwd_nome": fwd.get_text(strip=True) if fwd else None,
         })
     return out
 
